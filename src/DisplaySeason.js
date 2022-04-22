@@ -1,5 +1,6 @@
 import React from "react";
 // import ReactDOM from "react-dom";
+import "./style.css";
 
 const getMonth = function () {
   return new Date().getMonth();
