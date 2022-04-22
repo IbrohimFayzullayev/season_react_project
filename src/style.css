@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  border: 2px solid #000;
+  max-width: 580px;
+  margin: 0 auto;
+  position: relative;
+  height: 280px;
+}
+.text,
+.icon_1,
+.icon_2 {
+  position: absolute;
+}
+.icon_1 {
+  top: 10%;
+  left: 2%;
+}
+.icon_2 {
+  bottom: 10%;
+  right: 2%;
+}
+.text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.color_blue {
+  color: aqua;
+}
+.color_yellow {
+  color: rgb(217, 165, 12);
+}
